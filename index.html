@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Torneo Algorítmico - Piedra, Papel o Tijera</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background-color: #0f172a;
+      color: #f8fafc;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .card {
+      background-color: #1e293b;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+      max-width: 480px;
+      text-align: center;
+      border: 1px solid #334155;
+    }
+    h1 {
+      margin-top: 0;
+      color: #38bdf8;
+    }
+    p {
+      color: #94a3b8;
+      line-height: 1.6;
+    }
+    .btn-jugar {
+      background-color: #38bdf8;
+      color: #0f172a;
+      border: none;
+      padding: 14px 28px;
+      font-size: 1.1rem;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+    .btn-jugar:hover {
+      background-color: #0284c7;
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h1>🏆 Torneo Algorítmico</h1>
+    <p>Simulador de <strong>Piedra, Papel o Tijera</strong> al mejor de 3 rondas.</p>
+    
+    <button class="btn-jugar" onclick="iniciarTorneo()">🎮 Jugar Ahora</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
